@@ -21,14 +21,13 @@ function DoFizzBuzzFoundation(fizz, buzz) {
         //output += `loop value:v${loop} <br /> Fizz:${loop} % ${fizz} = ${fizzRemainder} <br /> Buzz: ${loop} % ${buzz} = ${buzzRemainder} <br /> `;
 
         if (fizzRemainder == 0 && buzzRemainder == 0) {
-            output += "FIZZBUZZ ";
+            output += "<span class='fizzbuzz'>FIZZBUZZ </span>";
         }
-
         else if (fizzRemainder == 0) {
-            output += "Fizz ";
+            output += "<span class='fizz'>Fizz </span>";
         }
         else if (buzzRemainder == 0) {
-            output += "Buzz ";
+            output += "<span class='buzz'>Buzz </span>";
         }
         else {
             output += `${loop} `;

@@ -11,8 +11,19 @@
  
 }
 
-div.a {
-    text-align: justify; 
-    -moz-text-align-last: justify; 
-    text-align-last: justify;
+.fizzbuzz .fizz .buzz {
+    font-size: x-large;
 }
+
+.fizzbuzz {
+    color: red;
+}
+
+.buzz {
+    color: darkgoldenrod;
+}
+
+.fizz{
+    color: blue;
+}
+
